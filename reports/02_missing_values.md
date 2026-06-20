@@ -1,0 +1,16 @@
+# Valeurs manquantes
+
+## Resume
+
+- Lignes analysees: `16`
+
+## Colonnes
+
+| colonne | valeurs_manquantes | total_lignes | pourcentage_manquant | recommandation |
+| --- | --- | --- | --- | --- |
+| id | 0 | 16 | 0.0 | Rien a faire |
+| recipient_legal_name | 0 | 16 | 0.0 | Rien a faire |
+| city | 0 | 16 | 0.0 | Rien a faire |
+| province | 0 | 16 | 0.0 | Rien a faire |
+| amount | 0 | 16 | 0.0 | Rien a faire |
+| category | 0 | 16 | 0.0 | Rien a faire |

@@ -1,0 +1,7 @@
+column,sample_dtype,sample_non_null,sample_unique
+id,string,16,16
+recipient_legal_name,string,16,16
+city,string,16,6
+province,string,16,1
+amount,string,16,16
+category,string,16,11
