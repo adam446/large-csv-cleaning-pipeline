@@ -1,7 +1,9 @@
 colonne,valeurs_manquantes,total_lignes,pourcentage_manquant,recommandation
-id,0,16,0.0,Rien a faire
-recipient_legal_name,0,16,0.0,Rien a faire
-city,0,16,0.0,Rien a faire
-province,0,16,0.0,Rien a faire
-amount,0,16,0.0,Rien a faire
-category,0,16,0.0,Rien a faire
+organisme,3,53,5.66,"Garder, creer un indicateur is_missing si necessaire"
+montant,3,53,5.66,"Verifier le type numerique, imputer par mediane si justifie"
+date,2,53,3.77,Imputation simple
+code_postal,2,53,3.77,Imputation simple
+categorie,1,53,1.89,Imputation simple
+id,0,53,0.0,Rien a faire
+ville,0,53,0.0,Rien a faire
+province,0,53,0.0,Rien a faire

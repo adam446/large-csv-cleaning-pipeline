@@ -10,53 +10,53 @@
 
 | column_name | original_value | clean_value | status | reason |
 | --- | --- | --- | --- | --- |
-| id | 7 | 7 | rejected | score de similarite 0.0 |
-| id | 8 | 8 | rejected | score de similarite 0.0 |
-| id | 9 | 9 | rejected | score de similarite 0.0 |
+| id | 14 | 14 | review | score de similarite 90.0 |
 | id | 10 | 10 | review | score de similarite 90.0 |
 | id | 11 | 11 | review | score de similarite 90.0 |
 | id | 12 | 12 | review | score de similarite 90.0 |
 | id | 13 | 13 | review | score de similarite 90.0 |
-| id | 14 | 14 | review | score de similarite 90.0 |
 | id | 15 | 15 | review | score de similarite 90.0 |
 | id | 16 | 16 | review | score de similarite 90.0 |
-| id | 1 | 1 | review | score de similarite 90.0 |
-| id | 2 | 2 | review | score de similarite 90.0 |
+| id | 17 | 17 | review | score de similarite 90.0 |
+| id | 18 | 18 | review | score de similarite 90.0 |
+| id | 19 | 19 | review | score de similarite 90.0 |
+| id | 21 | 21 | review | score de similarite 90.0 |
+| id | 31 | 31 | review | score de similarite 90.0 |
+| id | 41 | 41 | review | score de similarite 90.0 |
 | id | 3 | 3 | review | score de similarite 90.0 |
+| id | 1 | 1 | review | score de similarite 90.0 |
 | id | 4 | 4 | review | score de similarite 90.0 |
-| id | 5 | 5 | review | score de similarite 90.0 |
 | id | 6 | 6 | review | score de similarite 90.0 |
-| recipient_legal_name | Ministère de la Santé | Ministère de la Santé | accepted | score de similarite 100.0 |
-| recipient_legal_name | Ministere de la Sante | Ministère de la Santé | accepted | score de similarite 100.0 |
-| recipient_legal_name | MINISTERE SANTE | Ministère de la Santé | accepted | score de similarite 95.0 |
-| recipient_legal_name | Société de transport de Montréal | Societe transport Montreal | accepted | score de similarite 95.0 |
-| recipient_legal_name | Societe transport Montreal | Société de transport de Montréal | accepted | score de similarite 95.0 |
-| recipient_legal_name | U.Q.A.M. | UQAM | accepted | variante evidente ou nom complet de l'UQAM |
-| recipient_legal_name | U Q A M | UQAM | accepted | variante evidente ou nom complet de l'UQAM |
-| recipient_legal_name | Université du Québec à Montréal | UQAM | accepted | variante evidente ou nom complet de l'UQAM |
-| recipient_legal_name | Universite du Quebec a Montreal | UQAM | accepted | variante evidente ou nom complet de l'UQAM |
-| recipient_legal_name | Ville de Montréal | Ville de Montréal | accepted | score de similarite 100.0 |
-| recipient_legal_name | Ville de Montreal | Ville de Montréal | accepted | score de similarite 100.0 |
-| recipient_legal_name | STM | STM | rejected | score de similarite 60.0 |
-| recipient_legal_name | Organisme sans lien | Organisme sans lien | rejected | score de similarite 60.0 |
-| recipient_legal_name | UQAM | UQAM | accepted | variante evidente ou nom complet de l'UQAM |
-| recipient_legal_name | AQAM | AQAM | review | forte similarite avec UQAM mais validation requise |
-| recipient_legal_name | ?QAM | ?QAM | review | forte similarite avec UQAM mais validation requise |
-| city | Montreal | Montreal | accepted | score de similarite 100.0 |
-| city | Montréal | Montreal | accepted | score de similarite 100.0 |
-| city | Quebec | Quebec | accepted | score de similarite 100.0 |
-| city | Québec | Quebec | accepted | score de similarite 100.0 |
-| city | Laval | Laval | rejected | score de similarite 51.43 |
-| city | Rimouski | Rimouski | rejected | score de similarite 25.0 |
-| province | QC | QC | rejected | score de similarite 0.0 |
-| amount | 120.00 | 120.00 | review | score de similarite 83.33 |
-| amount | 130.00 | 130.00 | review | score de similarite 83.33 |
-| amount | 140.00 | 140.00 | review | score de similarite 83.33 |
-| amount | 700.00 | 700.00 | review | score de similarite 83.33 |
-| amount | 800.00 | 800.00 | review | score de similarite 83.33 |
-| amount | 810.00 | 810.00 | review | score de similarite 83.33 |
-| amount | 100.00 | 100.00 | review | score de similarite 83.33 |
-| amount | 121.00 | 121.00 | review | score de similarite 83.33 |
-| amount | 500.00 | 500.00 | review | score de similarite 90.91 |
-| amount | 510.00 | 510.00 | review | score de similarite 90.91 |
-| amount | 50.00 | 50.00 | review | score de similarite 90.91 |
+| id | 7 | 7 | review | score de similarite 90.0 |
+| id | 8 | 8 | review | score de similarite 90.0 |
+| id | 9 | 9 | review | score de similarite 90.0 |
+| id | 25 | 25 | review | score de similarite 90.0 |
+| id | 20 | 20 | review | score de similarite 90.0 |
+| id | 22 | 22 | review | score de similarite 90.0 |
+| id | 23 | 23 | review | score de similarite 90.0 |
+| id | 24 | 24 | review | score de similarite 90.0 |
+| id | 26 | 26 | review | score de similarite 90.0 |
+| id | 27 | 27 | review | score de similarite 90.0 |
+| id | 28 | 28 | review | score de similarite 90.0 |
+| id | 29 | 29 | review | score de similarite 90.0 |
+| id | 32 | 32 | review | score de similarite 90.0 |
+| id | 42 | 42 | review | score de similarite 90.0 |
+| id | 2 | 2 | review | score de similarite 90.0 |
+| id | 5 | 5 | review | score de similarite 90.0 |
+| id | 30 | 30 | review | score de similarite 90.0 |
+| id | 33 | 33 | review | score de similarite 90.0 |
+| id | 34 | 34 | review | score de similarite 90.0 |
+| id | 35 | 35 | review | score de similarite 90.0 |
+| id | 36 | 36 | review | score de similarite 90.0 |
+| id | 37 | 37 | review | score de similarite 90.0 |
+| id | 38 | 38 | review | score de similarite 90.0 |
+| id | 39 | 39 | review | score de similarite 90.0 |
+| id | 43 | 43 | review | score de similarite 90.0 |
+| id | 40 | 40 | review | score de similarite 90.0 |
+| id | 44 | 44 | review | score de similarite 90.0 |
+| id | 45 | 45 | review | score de similarite 90.0 |
+| id | 46 | 46 | review | score de similarite 90.0 |
+| id | 47 | 47 | review | score de similarite 90.0 |
+| id | 48 | 48 | review | score de similarite 90.0 |
+| id | 49 | 49 | review | score de similarite 90.0 |
+| id | 50 | 50 | review | score de similarite 90.0 |

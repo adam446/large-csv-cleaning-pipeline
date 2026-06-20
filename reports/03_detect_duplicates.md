@@ -2,10 +2,25 @@
 
 ## Resume
 
-- Lignes analysees: `16`
-- Groupes en doublon: `0`
-- Lignes excedentaires: `0`
+- Lignes analysees: `53`
+- Groupes en doublon: `14`
+- Lignes excedentaires: `15`
 
 ## Exemples
 
-_Aucune donnee._
+| duplicate_type | hash | duplicate_count | id | date | organisme | ville | province | code_postal | montant | categorie |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| same_organization_city_postal | 431d7e4e545ae6d29ef50841a5d0b04330fae13338e8ce3bcfac0557ce4de379 | 3 |  |  | Ville de Montréal | Montréal |  | H2Y 1C6 |  |  |
+| exact_row | dada83c8e81e2dc1be2bc5fc3f601895eb47a5af5ffcb0a5967800303050c279 | 2 | 14 | 2024-01-13 | nan | Sherbrooke | QC | J1H 1A1 | 250.00 | Autre |
+| exact_row | 846a69df0bff520c8bc9067351fbd763bd4f0c9d3577f81f44a730f3e00efb64 | 2 | 25 | 2024-01-24 | Ville de Montréal | Montréal | QC | H2Y 1C6 | 1000.00 | Municipal |
+| exact_row | 56955e950dd5d0c0cee1086f56cd427784620d240b8b68990462a6d89ed4cd29 | 2 | 50 | 2024-02-17 | Doublon exact test | Rimouski | QC | G5L 1A1 | 111.00 | Autre |
+| same_reference | 8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61 | 2 | 14 |  |  |  |  |  |  |  |
+| same_reference | b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569 | 2 | 25 |  |  |  |  |  |  |  |
+| same_reference | 1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb | 2 | 50 |  |  |  |  |  |  |  |
+| same_organization_date_amount | c028c9852dc2679c13ae4d1ea9099cefdd4cfa47f890073b9e424c719e77d8b7 | 2 |  | 2024-01-03 | Université du Québec à Montréal |  |  |  | 300.00 |  |
+| same_organization_date_amount | 8e6b28e0f6dbc13d4d1422a9494e4d7265464a80e336ec3a08b14ed6d5ec162f | 2 |  | 2024-01-13 | nan |  |  |  | 250.00 |  |
+| same_organization_date_amount | e90fc5312acf17560fbfac5f9d32da86f984afd86393779caea69109271414d8 | 2 |  | 2024-01-24 | Ville de Montréal |  |  |  | 1000.00 |  |
+| same_organization_date_amount | 361cefdefb3751e5a325a537de000b4b85fcf1cf03cb3a763a1800e2f1353f73 | 2 |  | 2024-02-17 | Doublon exact test |  |  |  | 111.00 |  |
+| same_organization_city_postal | 6a180c424de51209a1ed799f920c05df2fe198c4eaf84aeb377ee10c24656cbc | 2 |  |  | Université du Québec à Montréal |  Montreal  |  | H2X 1Y4 |  |  |
+| same_organization_city_postal | e7367921693c14d1afd63406f43c4181795e174f1c3ce7c7c476d719e8f3361d | 2 |  |  | nan | Sherbrooke |  | J1H 1A1 |  |  |
+| same_organization_city_postal | 43fdc1b752e965915a675a9f9f7311785907dc4727011344bc2f1da0596c235c | 2 |  |  | Doublon exact test | Rimouski |  | G5L 1A1 |  |  |

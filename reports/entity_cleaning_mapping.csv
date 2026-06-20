@@ -1,67 +1,244 @@
 column_name,original_value,clean_value,status,reason
-id,7,7,rejected,score de similarite 0.0
-id,8,8,rejected,score de similarite 0.0
-id,9,9,rejected,score de similarite 0.0
+id,14,14,review,score de similarite 90.0
 id,10,10,review,score de similarite 90.0
 id,11,11,review,score de similarite 90.0
 id,12,12,review,score de similarite 90.0
 id,13,13,review,score de similarite 90.0
-id,14,14,review,score de similarite 90.0
 id,15,15,review,score de similarite 90.0
 id,16,16,review,score de similarite 90.0
-id,1,1,review,score de similarite 90.0
-id,2,2,review,score de similarite 90.0
+id,17,17,review,score de similarite 90.0
+id,18,18,review,score de similarite 90.0
+id,19,19,review,score de similarite 90.0
+id,21,21,review,score de similarite 90.0
+id,31,31,review,score de similarite 90.0
+id,41,41,review,score de similarite 90.0
 id,3,3,review,score de similarite 90.0
+id,1,1,review,score de similarite 90.0
 id,4,4,review,score de similarite 90.0
-id,5,5,review,score de similarite 90.0
 id,6,6,review,score de similarite 90.0
-recipient_legal_name,Ministère de la Santé,Ministère de la Santé,accepted,score de similarite 100.0
-recipient_legal_name,Ministere de la Sante,Ministère de la Santé,accepted,score de similarite 100.0
-recipient_legal_name,MINISTERE SANTE,Ministère de la Santé,accepted,score de similarite 95.0
-recipient_legal_name,Société de transport de Montréal,Societe transport Montreal,accepted,score de similarite 95.0
-recipient_legal_name,Societe transport Montreal,Société de transport de Montréal,accepted,score de similarite 95.0
-recipient_legal_name,U.Q.A.M.,UQAM,accepted,variante evidente ou nom complet de l'UQAM
-recipient_legal_name,U Q A M,UQAM,accepted,variante evidente ou nom complet de l'UQAM
-recipient_legal_name,Université du Québec à Montréal,UQAM,accepted,variante evidente ou nom complet de l'UQAM
-recipient_legal_name,Universite du Quebec a Montreal,UQAM,accepted,variante evidente ou nom complet de l'UQAM
-recipient_legal_name,Ville de Montréal,Ville de Montréal,accepted,score de similarite 100.0
-recipient_legal_name,Ville de Montreal,Ville de Montréal,accepted,score de similarite 100.0
-recipient_legal_name,STM,STM,rejected,score de similarite 60.0
-recipient_legal_name,Organisme sans lien,Organisme sans lien,rejected,score de similarite 60.0
-recipient_legal_name,UQAM,UQAM,accepted,variante evidente ou nom complet de l'UQAM
-recipient_legal_name,AQAM,AQAM,review,forte similarite avec UQAM mais validation requise
-recipient_legal_name,?QAM,?QAM,review,forte similarite avec UQAM mais validation requise
-city,Montreal,Montreal,accepted,score de similarite 100.0
-city,Montréal,Montreal,accepted,score de similarite 100.0
-city,Quebec,Quebec,accepted,score de similarite 100.0
-city,Québec,Quebec,accepted,score de similarite 100.0
-city,Laval,Laval,rejected,score de similarite 51.43
-city,Rimouski,Rimouski,rejected,score de similarite 25.0
-province,QC,QC,rejected,score de similarite 0.0
-amount,120.00,120.00,review,score de similarite 83.33
-amount,130.00,130.00,review,score de similarite 83.33
-amount,140.00,140.00,review,score de similarite 83.33
-amount,700.00,700.00,review,score de similarite 83.33
-amount,800.00,800.00,review,score de similarite 83.33
-amount,810.00,810.00,review,score de similarite 83.33
-amount,100.00,100.00,review,score de similarite 83.33
-amount,121.00,121.00,review,score de similarite 83.33
-amount,500.00,500.00,review,score de similarite 90.91
-amount,510.00,510.00,review,score de similarite 90.91
-amount,50.00,50.00,review,score de similarite 90.91
-amount,515.00,515.00,review,score de similarite 83.33
-amount,705.00,705.00,review,score de similarite 83.33
-amount,805.00,805.00,review,score de similarite 83.33
-amount,92.00,92.00,review,score de similarite 80.0
-amount,90.00,90.00,review,score de similarite 80.0
-category,Education,Education,accepted,score de similarite 100.0
-category,education,Education,accepted,score de similarite 100.0
-category,Municipal,Municipal,accepted,score de similarite 100.0
-category,municipal,Municipal,accepted,score de similarite 100.0
-category,Sante,Sante,accepted,score de similarite 100.0
-category,Santé,Sante,accepted,score de similarite 100.0
-category,SANTE,Sante,accepted,score de similarite 100.0
-category,Transport,Transport,accepted,score de similarite 100.0
-category,transport,Transport,accepted,score de similarite 100.0
-category,TRANSPORT,Transport,accepted,score de similarite 100.0
-category,Autre,Autre,rejected,score de similarite 60.0
+id,7,7,review,score de similarite 90.0
+id,8,8,review,score de similarite 90.0
+id,9,9,review,score de similarite 90.0
+id,25,25,review,score de similarite 90.0
+id,20,20,review,score de similarite 90.0
+id,22,22,review,score de similarite 90.0
+id,23,23,review,score de similarite 90.0
+id,24,24,review,score de similarite 90.0
+id,26,26,review,score de similarite 90.0
+id,27,27,review,score de similarite 90.0
+id,28,28,review,score de similarite 90.0
+id,29,29,review,score de similarite 90.0
+id,32,32,review,score de similarite 90.0
+id,42,42,review,score de similarite 90.0
+id,2,2,review,score de similarite 90.0
+id,5,5,review,score de similarite 90.0
+id,30,30,review,score de similarite 90.0
+id,33,33,review,score de similarite 90.0
+id,34,34,review,score de similarite 90.0
+id,35,35,review,score de similarite 90.0
+id,36,36,review,score de similarite 90.0
+id,37,37,review,score de similarite 90.0
+id,38,38,review,score de similarite 90.0
+id,39,39,review,score de similarite 90.0
+id,43,43,review,score de similarite 90.0
+id,40,40,review,score de similarite 90.0
+id,44,44,review,score de similarite 90.0
+id,45,45,review,score de similarite 90.0
+id,46,46,review,score de similarite 90.0
+id,47,47,review,score de similarite 90.0
+id,48,48,review,score de similarite 90.0
+id,49,49,review,score de similarite 90.0
+id,50,50,review,score de similarite 90.0
+date,2024-01-03,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-13,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-24,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-02,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-04,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-05,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-06,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-08,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-09,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-10,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-11,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-12,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-14,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-15,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-16,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-17,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-18,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-19,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-20,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-21,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-22,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-23,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-25,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-26,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-27,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-28,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-29,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-30,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-31,2024-01-01,accepted,score de similarite 95.0
+date,2024-02-01,2024-01-01,accepted,score de similarite 95.0
+date,2024-01-01,2024-01-03,accepted,score de similarite 95.0
+date,2024-02-16,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-17,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-03,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-04,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-05,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-06,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-07,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-08,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-10,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-11,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-12,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-13,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-14,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-15,2024-02-02,accepted,score de similarite 95.0
+date,2024-02-02,2024-02-16,accepted,score de similarite 95.0
+organisme,Agence du revenu du Québec,Agence Revenu Quebec,accepted,score de similarite 95.0
+organisme,Agence Revenu Quebec,Agence du revenu du Québec,accepted,score de similarite 95.0
+organisme,École Polytechnique de Montréal,Ecole Polytechnique Montréal,accepted,score de similarite 95.0
+organisme,Polytechnique Montreal,Ecole Polytechnique Montréal,accepted,score de similarite 95.0
+organisme,Espaces Organisation,Espaces Organisation,accepted,score de similarite 100.0
+organisme,Espaces   Organisation,Espaces Organisation,accepted,score de similarite 100.0
+organisme,Ministere de la Sante,Ministere de la Sante,accepted,score de similarite 100.0
+organisme,Ministère de la Santé,Ministere de la Sante,accepted,score de similarite 100.0
+organisme,MINISTERE SANTE,Ministere de la Sante,accepted,score de similarite 95.0
+organisme,Ministère Santé Services sociaux,Ministere de la Santé et Services Sociaux,accepted,score de similarite 95.0
+organisme,Ministere de la Santé et Services Sociaux,Ministère Santé Services sociaux,accepted,score de similarite 95.0
+organisme,Organisme avec caracteres #$%!,Organisme avec caracteres #$%!,accepted,score de similarite 100.0
+organisme,organisme avec caracteres,Organisme avec caracteres #$%!,accepted,score de similarite 100.0
+organisme,Société de transport de Montréal,Societe transport Montreal,accepted,score de similarite 95.0
+organisme,Societe transport Montreal,Société de transport de Montréal,accepted,score de similarite 95.0
+organisme,U.Q.A.M.,UQAM,accepted,variante evidente ou nom complet de l'UQAM
+organisme,U Q A M,UQAM,accepted,variante evidente ou nom complet de l'UQAM
+organisme,Université Laval,Université Laval,accepted,score de similarite 100.0
+organisme,Universite Laval,Université Laval,accepted,score de similarite 100.0
+organisme,UNIVERSITÉ  LAVAL,Université Laval,accepted,score de similarite 100.0
+organisme,Université du Québec à Montréal,UQAM,accepted,variante evidente ou nom complet de l'UQAM
+organisme,universite du quebec a montreal,UQAM,accepted,variante evidente ou nom complet de l'UQAM
+organisme,Université  du Québec à Montréal,UQAM,accepted,variante evidente ou nom complet de l'UQAM
+organisme,Université du Québec @ Montréal,Université du Québec à Montréal,accepted,score de similarite 96.67
+organisme,Universite Québec Montreal,Université du Québec à Montréal,accepted,score de similarite 95.0
+organisme,Ville de Montréal,Ville de Montréal,accepted,score de similarite 100.0
+organisme,Ville de Montreal,Ville de Montréal,accepted,score de similarite 100.0
+organisme,Ville  de   Montreal,Ville de Montréal,accepted,score de similarite 100.0
+organisme,Ecole Polytechnique Montréal,École Polytechnique de Montréal,accepted,score de similarite 95.0
+organisme,CHUM,CHUM,rejected,score de similarite 72.73
+organisme,C.H.U.M.,C.H.U.M.,rejected,score de similarite 72.73
+organisme,STM,STM,rejected,score de similarite 72.0
+organisme,Province minuscule,Province minuscule,rejected,score de similarite 50.62
+organisme,MSSS,MSSS,rejected,score de similarite 45.0
+organisme,Montant texte,Montant texte,rejected,score de similarite 66.5
+organisme,Nom manquant date,Nom manquant date,rejected,score de similarite 63.33
+organisme,Montant manquant,Montant manquant,rejected,score de similarite 66.5
+organisme,Doublon exact test,Doublon exact test,rejected,score de similarite 72.0
+organisme,UQAM,UQAM,accepted,variante evidente ou nom complet de l'UQAM
+organisme,AQAM,AQAM,review,forte similarite avec UQAM mais validation requise
+organisme,Revenu Québec,Revenu Québec,review,score de similarite 90.0
+organisme,Code postal vide,Code postal vide,review,score de similarite 80.0
+organisme,Code postal bizarre,Code postal bizarre,review,score de similarite 80.0
+organisme,?QAM,?QAM,review,forte similarite avec UQAM mais validation requise
+organisme,Univ. du Quebec a Montreal,Univ. du Quebec a Montreal,review,score de similarite 89.29
+organisme,Centre hospitalier universitaire de Montreal,Centre hospitalier universitaire de Montreal,review,score de similarite 85.5
+ville,Montreal,Montreal,accepted,score de similarite 100.0
+ville,Montréal,Montreal,accepted,score de similarite 100.0
+ville,Quebec,Quebec,accepted,score de similarite 100.0
+ville,Québec,Quebec,accepted,score de similarite 100.0
+ville,Trois-Rivières,Trois-Rivières,accepted,score de similarite 100.0
+ville,Trois-Rivieres,Trois-Rivières,accepted,score de similarite 100.0
+ville,Laval,Laval,rejected,score de similarite 51.43
+ville,Longueuil,Longueuil,rejected,score de similarite 47.06
+ville,Gatineau,Gatineau,rejected,score de similarite 37.5
+ville,Sherbrooke,Sherbrooke,rejected,score de similarite 37.5
+ville,Rimouski,Rimouski,rejected,score de similarite 45.0
+province,QC,QC,accepted,score de similarite 100.0
+province,qc,QC,accepted,score de similarite 100.0
+code_postal,G1R 2B5,G1R 2B5,rejected,score de similarite 71.43
+code_postal,J1H 1A1,J1H 1A1,rejected,score de similarite 71.43
+code_postal,H7A 0A1,H7A 0A1,rejected,score de similarite 71.43
+code_postal,??? 123,??? 123,rejected,score de similarite 45.0
+code_postal,H2X 3E4,H2X 3E4,rejected,score de similarite 71.43
+code_postal,H1A 1A1,H1A 1A1,rejected,score de similarite 71.43
+code_postal,J4K 1A1,J4K 1A1,rejected,score de similarite 71.43
+code_postal,G1K7S9,G1K7S9,review,score de similarite 92.31
+code_postal,G1K 7S9,G1K 7S9,review,score de similarite 92.31
+code_postal,G1R5M8,G1R5M8,review,score de similarite 92.31
+code_postal,G1R 5M8,G1R 5M8,review,score de similarite 92.31
+code_postal,G1V0A6,G1V0A6,review,score de similarite 92.31
+code_postal,G1V 0A6,G1V 0A6,review,score de similarite 92.31
+code_postal,G5L1A1,G5L1A1,review,score de similarite 92.31
+code_postal,G5L 1A1,G5L 1A1,review,score de similarite 92.31
+code_postal,G9A5H7,G9A5H7,review,score de similarite 92.31
+code_postal,G9A 5H7,G9A 5H7,review,score de similarite 92.31
+code_postal,H2L4M8,H2L4M8,review,score de similarite 92.31
+code_postal,H2L 4M8,H2L 4M8,review,score de similarite 92.31
+code_postal,H2X1Y4,H2X1Y4,review,score de similarite 92.31
+code_postal,H2X 1Y4,H2X 1Y4,review,score de similarite 92.31
+code_postal,H2Y1C6,H2Y1C6,review,score de similarite 92.31
+code_postal,H2Y 1C6,H2Y 1C6,review,score de similarite 92.31
+code_postal,H3T1J4,H3T1J4,review,score de similarite 92.31
+code_postal,H3T 1J4,H3T 1J4,review,score de similarite 92.31
+code_postal,J8X3Y9,J8X3Y9,review,score de similarite 92.31
+code_postal,J8X 3Y9,J8X 3Y9,review,score de similarite 92.31
+montant,non disponible,non disponible,rejected,score de similarite 20.0
+montant,175.25,175.25,rejected,score de similarite 54.55
+montant,1000.00,1000.00,review,score de similarite 92.31
+montant,1200.00,1200.00,review,score de similarite 92.31
+montant,300.00,300.00,review,score de similarite 83.33
+montant,100.00,100.00,review,score de similarite 92.31
+montant,111.00,111.00,review,score de similarite 83.33
+montant,131.00,131.00,review,score de similarite 83.33
+montant,610.00,610.00,review,score de similarite 83.33
+montant,710.00,710.00,review,score de similarite 83.33
+montant,110.00,110.00,review,score de similarite 83.33
+montant,95.00,95.00,review,score de similarite 83.33
+montant,132.00,132.00,review,score de similarite 83.33
+montant,50.00,50.00,review,score de similarite 90.91
+montant,125.00,125.00,review,score de similarite 83.33
+montant,620.00,620.00,review,score de similarite 83.33
+montant,400.00,400.00,review,score de similarite 83.33
+montant,130.00,130.00,review,score de similarite 83.33
+montant,600.00,600.00,review,score de similarite 83.33
+montant,700.00,700.00,review,score de similarite 83.33
+montant,460.00,460.00,review,score de similarite 83.33
+montant,55.00,55.00,review,score de similarite 90.91
+montant,90.00,90.00,review,score de similarite 90.91
+montant,250.00,250.00,review,score de similarite 90.91
+montant,150.00,150.00,review,score de similarite 90.91
+montant,500.00,500.00,review,score de similarite 90.91
+montant,510.00,510.00,review,score de similarite 90.91
+montant,450.00,450.00,review,score de similarite 90.91
+montant,200.50,200.50,review,score de similarite 86.36
+montant,455.00,455.00,review,score de similarite 90.91
+montant,75.00,75.00,review,score de similarite 90.91
+montant,705.00,705.00,review,score de similarite 90.91
+montant,800.00,800.00,review,score de similarite 90.91
+montant,805.00,805.00,review,score de similarite 90.91
+montant,810.00,810.00,review,score de similarite 90.91
+montant,80.00,80.00,review,score de similarite 90.91
+montant,490.00,490.00,review,score de similarite 90.91
+montant,96.00,96.00,review,score de similarite 80.0
+montant,1195.00,1195.00,review,score de similarite 83.33
+categorie,Autre,Autre,accepted,score de similarite 100.0
+categorie,autre,Autre,accepted,score de similarite 100.0
+categorie,Education,Education,accepted,score de similarite 100.0
+categorie,education,Education,accepted,score de similarite 100.0
+categorie,EDUCATION,Education,accepted,score de similarite 100.0
+categorie,Éducation,Education,accepted,score de similarite 100.0
+categorie,Fiscal,Fiscal,accepted,score de similarite 100.0
+categorie,fiscal,Fiscal,accepted,score de similarite 100.0
+categorie,FISCAL,Fiscal,accepted,score de similarite 100.0
+categorie,Municipal,Municipal,accepted,score de similarite 100.0
+categorie,municipal,Municipal,accepted,score de similarite 100.0
+categorie,MUNICIPAL,Municipal,accepted,score de similarite 100.0
+categorie,SANTE,SANTE,accepted,score de similarite 100.0
+categorie,Sante,SANTE,accepted,score de similarite 100.0
+categorie,santé,SANTE,accepted,score de similarite 100.0
+categorie,Santé,SANTE,accepted,score de similarite 100.0
+categorie,sante,SANTE,accepted,score de similarite 100.0
+categorie,Transport,Transport,accepted,score de similarite 100.0
+categorie,transport,Transport,accepted,score de similarite 100.0
+categorie,TRANSPORT,Transport,accepted,score de similarite 100.0
+categorie,Recherche,Recherche,rejected,score de similarite 51.43
+categorie,Finance,Finance,rejected,score de similarite 50.0

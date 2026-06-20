@@ -1,7 +1,9 @@
 column,sample_dtype,sample_non_null,sample_unique
-id,string,16,16
-recipient_legal_name,string,16,16
-city,string,16,6
-province,string,16,1
-amount,string,16,16
-category,string,16,11
+id,string,53,50
+date,string,51,46
+organisme,string,50,46
+ville,string,53,14
+province,string,53,2
+code_postal,string,51,27
+montant,string,50,39
+categorie,string,52,23

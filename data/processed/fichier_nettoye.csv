@@ -1,17 +1,51 @@
-id,recipient_legal_name,city,province,amount,category,recipient_legal_name_clean,city_clean,category_clean
-1,UQAM,Montreal,QC,100.00,Education,UQAM,Montreal,Education
-2,U.Q.A.M.,Montréal,QC,120.00,Education,UQAM,Montreal,Education
-3,Université du Québec à Montréal,Montreal,QC,130.00,Education,UQAM,Montreal,Education
-4,Universite du Quebec a Montreal,Montreal,QC,140.00,education,UQAM,Montreal,Education
-5,AQAM,Laval,QC,90.00,Education,AQAM,Laval,Education
-6,?QAM,Laval,QC,92.00,Education,?QAM,Laval,Education
-7,U Q A M,Montreal,QC,121.00,Education,UQAM,Montreal,Education
-8,Ministère de la Santé,Québec,QC,500.00,Sante,Ministère de la Santé,Quebec,Sante
-9,Ministere de la Sante,Quebec,QC,510.00,Santé,Ministère de la Santé,Quebec,Sante
-10,MINISTERE SANTE,Quebec,QC,515.00,SANTE,Ministère de la Santé,Quebec,Sante
-11,Ville de Montréal,Montréal,QC,700.00,Municipal,Ville de Montréal,Montreal,Municipal
-12,Ville de Montreal,Montreal,QC,705.00,municipal,Ville de Montréal,Montreal,Municipal
-13,Société de transport de Montréal,Montréal,QC,800.00,Transport,Societe transport Montreal,Montreal,Transport
-14,Societe transport Montreal,Montreal,QC,805.00,transport,Société de transport de Montréal,Montreal,Transport
-15,STM,Montreal,QC,810.00,TRANSPORT,STM,Montreal,Transport
-16,Organisme sans lien,Rimouski,QC,50.00,Autre,Organisme sans lien,Rimouski,Autre
+id,date,organisme,ville,province,code_postal,montant,categorie,date_clean,organisme_clean,ville_clean,province_clean,categorie_clean
+1,2024-01-01,UQAM,Montreal,QC,H2X 1Y4,100.00,Education,2024-01-03,UQAM,Montreal,QC,Education
+2,2024-01-02,U.Q.A.M.,Montréal,QC,H2X 1Y4,200.50,education,2024-01-01,UQAM,Montreal,QC,Education
+3,2024-01-03,Université du Québec à Montréal, Montreal ,QC,H2X 1Y4,300.00,Education,2024-01-01,UQAM, Montreal ,QC,Education
+4,2024-01-03,Université du Québec à Montréal, Montreal ,QC,H2X 1Y4,300.00,Education,2024-01-01,UQAM, Montreal ,QC,Education
+5,2024-01-04,AQAM,Laval,QC,,400.00,Recherche,2024-01-01,AQAM,Laval,QC,Recherche
+6,2024-01-05,?QAM,Laval,QC,H7A 0A1,,Recherche,2024-01-01,?QAM,Laval,QC,Recherche
+7,2024-01-06,universite du quebec a montreal,Quebec,QC,G1R 2B5,150.00,EDUCATION,2024-01-01,UQAM,Quebec,QC,Education
+8,, Université  du Québec à Montréal ,Québec,QC,G1R 2B5,175.25,,, Université  du Québec à Montréal ,Quebec,QC,
+9,2024-01-08,Ministere de la Sante,Montreal,QC,H1A 1A1,500.00,Sante,2024-01-01,Ministere de la Sante,Montreal,QC,SANTE
+10,2024-01-09,Ministère de la Santé, Montréal,QC,H1A 1A1,510.00,santé,2024-01-01,Ministere de la Sante, Montréal,QC,SANTE
+11,2024-01-10,MINISTERE SANTE,Montreal,QC,H1A 1A1,490.00,SANTE,2024-01-01,Ministere de la Sante,Montreal,QC,SANTE
+12,2024-01-11,Ville de Montréal,Montréal,QC,H2Y 1C6,1000.00,Municipal,2024-01-01,Ville de Montréal,Montreal,QC,Municipal
+13,2024-01-12,Ville de Montreal,Montreal,QC,H2Y 1C6,1000.00,municipal,2024-01-01,Ville de Montréal,Montreal,QC,Municipal
+14,2024-01-13,,Sherbrooke,QC,J1H 1A1,250.00,Autre,2024-01-01,,Sherbrooke,QC,Autre
+15,2024-01-14,U Q A M,Montreal,QC,H2X1Y4,125.00,Education,2024-01-01,UQAM,Montreal,QC,Education
+16,2024-01-15,Univ. du Quebec a Montreal,Montréal,QC,H2X 1Y4,130.00,Éducation,2024-01-01,Univ. du Quebec a Montreal,Montreal,QC,Education
+17,2024-01-16,Universite Québec Montreal,Montréal,QC,H2X 1Y4,131.00,education ,2024-01-01,Université du Québec à Montréal,Montreal,QC,education 
+18,2024-01-17,Université du Québec @ Montréal,Montréal,QC,H2X 1Y4,132.00,EDUCATION,2024-01-01,Université du Québec à Montréal,Montreal,QC,Education
+19,2024-01-18,Ministere de la Santé et Services Sociaux,Québec,QC,G1R 5M8,800.00,Santé,2024-01-01,Ministère Santé Services sociaux,Quebec,QC,SANTE
+20,2024-01-19,Ministère Santé Services sociaux,Quebec,QC,G1R5M8,805.00,sante,2024-01-01,Ministere de la Santé et Services Sociaux,Quebec,QC,SANTE
+21,2024-01-20,MSSS,Quebec,QC,G1R 5M8,810.00,SANTE,2024-01-01,MSSS,Quebec,QC,SANTE
+22,2024-01-21,Centre hospitalier universitaire de Montreal,Montréal,QC,H2X 3E4,1200.00,Sante,2024-01-01,Centre hospitalier universitaire de Montreal,Montreal,QC,SANTE
+23,2024-01-22,CHUM,Montreal,QC,H2X 3E4,1195.00,santé,2024-01-01,CHUM,Montreal,QC,SANTE
+24,2024-01-23,C.H.U.M.,Montreal,QC,H2X 3E4,1195.00,SANTE,2024-01-01,C.H.U.M.,Montreal,QC,SANTE
+25,2024-01-24,Ville de Montréal,Montréal,QC,H2Y 1C6,1000.00,Municipal,2024-01-01,Ville de Montréal,Montreal,QC,Municipal
+26,2024-01-25,Ville  de   Montreal , Montreal ,QC,H2Y1C6,1000.00,MUNICIPAL,2024-01-01,Ville  de   Montreal , Montreal ,QC,Municipal
+27,2024-01-26,Agence Revenu Quebec,Québec,QC,G1K 7S9,600.00,Fiscal,2024-01-01,Agence du revenu du Québec,Quebec,QC,Fiscal
+28,2024-01-27,Agence du revenu du Québec,Quebec,QC,G1K7S9,610.00,fiscal,2024-01-01,Agence Revenu Quebec,Quebec,QC,Fiscal
+29,2024-01-28,Revenu Québec,Quebec,QC,G1K 7S9,620.00,FISCAL,2024-01-01,Revenu Québec,Quebec,QC,Fiscal
+30,2024-01-29,Société de transport de Montréal,Montréal,QC,H2L 4M8,700.00,Transport,2024-01-01,Societe transport Montreal,Montreal,QC,Transport
+31,2024-01-30,Societe transport Montreal,Montreal,QC,H2L4M8,705.00,transport,2024-01-01,Société de transport de Montréal,Montreal,QC,Transport
+32,2024-01-31,STM,Montreal,QC,H2L 4M8,710.00,TRANSPORT,2024-01-01,STM,Montreal,QC,Transport
+33,2024-02-01,Université Laval,Québec,QC,G1V 0A6,300.00,Education,2024-01-01,Université Laval,Quebec,QC,Education
+34,2024-02-02,Universite Laval,Quebec,QC,G1V0A6,300.00,education,2024-02-16,Université Laval,Quebec,QC,Education
+35,2024-02-03,UNIVERSITÉ  LAVAL, Québec ,QC,G1V 0A6,,Éducation,2024-02-02,Université Laval, Québec ,QC,Education
+36,2024-02-04,Ecole Polytechnique Montréal,Montréal,QC,H3T 1J4,450.00,Education,2024-02-02,École Polytechnique de Montréal,Montreal,QC,Education
+37,2024-02-05,École Polytechnique de Montréal,Montreal,QC,H3T1J4,455.00,education,2024-02-02,Ecole Polytechnique Montréal,Montreal,QC,Education
+38,2024-02-06,Polytechnique Montreal,Montreal,QC,H3T 1J4,460.00,EDUCATION,2024-02-02,Ecole Polytechnique Montréal,Montreal,QC,Education
+39,2024-02-07,Organisme avec caracteres #$%!,Trois-Rivières,QC,G9A 5H7,50.00,Autre,2024-02-02,Organisme avec caracteres #$%!,Trois-Rivières,QC,Autre
+40,2024-02-08,  organisme avec caracteres   ,Trois-Rivieres,QC,G9A5H7,55.00,autre,2024-02-02,  organisme avec caracteres   ,Trois-Rivières,QC,Autre
+41,,Nom manquant date,Gatineau,QC,J8X 3Y9,75.00,Autre,,Nom manquant date,Gatineau,QC,Autre
+42,2024-02-10,,Gatineau,QC,J8X3Y9,80.00,Autre,2024-02-02,,Gatineau,QC,Autre
+43,2024-02-11,Montant manquant,Longueuil,QC,J4K 1A1,,Finance,2024-02-02,Montant manquant,Longueuil,QC,Finance
+44,2024-02-12,Montant texte,Longueuil,QC,J4K 1A1,non disponible,Finance,2024-02-02,Montant texte,Longueuil,QC,Finance
+45,2024-02-13,Province minuscule,Sherbrooke,qc,J1H 1A1,90.00,Autre,2024-02-02,Province minuscule,Sherbrooke,QC,Autre
+46,2024-02-14,Code postal vide,Sherbrooke,QC,,95.00,Autre,2024-02-02,Code postal vide,Sherbrooke,QC,Autre
+47,2024-02-15,Code postal bizarre,Sherbrooke,QC,??? 123,96.00,Autre,2024-02-02,Code postal bizarre,Sherbrooke,QC,Autre
+48,2024-02-16,Espaces Organisation,Rimouski,QC,G5L 1A1,110.00,Autre,2024-02-02,Espaces Organisation,Rimouski,QC,Autre
+49,2024-02-16, Espaces   Organisation ,Rimouski,QC,G5L1A1,110.00,autre,2024-02-02, Espaces   Organisation ,Rimouski,QC,Autre
+50,2024-02-17,Doublon exact test,Rimouski,QC,G5L 1A1,111.00,Autre,2024-02-02,Doublon exact test,Rimouski,QC,Autre
